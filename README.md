@@ -12,7 +12,9 @@ Finally, the results are compared with the implementation provided by `Scikit-Le
 
 ## 📖 Dataset
 
-The dataset used in this project contains information about multiple smatphone models
+The dataset used in this project contains information about multiple smartphones an their respective features, which are used to predict their final prices. You can access the dataset via the following link:
+
+🔗 [Smartphones Dataset](https://raw.githubusercontent.com/PabloMartinTejedor/Linear-Regression-Algorithm-Machine-Learning/refs/heads/main/Smartphones.csv)
 
 ## 📊 Data Preprocessing
 
