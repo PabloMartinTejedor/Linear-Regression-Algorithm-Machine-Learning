@@ -10,6 +10,10 @@ Finally, the results are compared with the implementation provided by `Scikit-Le
 - `Smartphone_Prices_Prediction.ipynb`: Contains all code organized, explanations and analysis.
 - `Requirements.txt`: Required Python libraries.
 
+## 📖 Dataset
+
+The dataset used in this project contains information about multiple smatphone models
+
 ## 📊 Data Preprocessing
 
 1. **Removing Irrelevant Columns / Variables**: Brands, models, storage capacities and colors with few records are removed to improve the prediction of the relationship between the different variables in the dataset with the `Final Price` (target variable).
