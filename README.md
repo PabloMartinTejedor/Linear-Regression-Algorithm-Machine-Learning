@@ -9,6 +9,7 @@ Finally, the results are compared with the implementation provided by `Scikit-Le
 
 - `Smartphone_Prices_Prediction.ipynb`: Contains all code organized, explanations and analysis.
 - `Requirements.txt`: Required Python libraries.
+- `Smartphones.csv`: Dataset with smartphone feautures.
 
 ## 📖 Dataset
 
