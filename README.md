@@ -23,7 +23,7 @@ The dataset used in this project contains information about multiple smartphones
 
 2. **Handling "NaN" Values**:
 
-   - **RAM** `NaN` values are replaced with the **median** (statistical measure less sensitive to outliers).
+   - **RAM** `NaN` values are replaced with the median (statistical measure less sensitive to outliers).
    - **Storage** `NaN` values are removed (small percentage of such data removed doesn't affect the relationship between the different variables in the dataset with the target variable.
 
 3. **Encoding Categorical Variables**:  `Brand`, `Model`, `Color` and `Free` are encoded as numerical variables to analyze their relationship with the target variable.
