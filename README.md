@@ -23,8 +23,8 @@ The dataset used in this project contains information about multiple smartphones
 
 2. **Handling "NaN" Values**:
 
-   - **RAM** `NaN` values are replaced with the median (statistical measure less sensitive to outliers).
-   - **Storage** `NaN` values are removed (small percentage of such data removed doesn't affect the relationship between the different variables in the dataset with the target variable.
+   - RAM `NaN` Values: Replaced with the median (statistical measure less sensitive to outliers).
+   - Storage `NaN` Values: Removed (small percentage of such data removed doesn't affect the relationship between the different variables in the dataset with the target variable.
 
 3. **Encoding Categorical Variables**:  `Brand`, `Model`, `Color` and `Free` are encoded as numerical variables to analyze their relationship with the target variable.
 
@@ -34,20 +34,20 @@ The dataset used in this project contains information about multiple smartphones
 
 2. **Linear Regression Model Implementation Using 2 Methods**:
 
-   - **Scikit-Learn**: Uses the efficient implementation of **Ordinary Least Squares** internally to compute the model´s coefficients (betas).
-   - **Ordinary Least Squares (OLS)**: Manually implemented to calculate the model´s coefficients (betas) using the equation: 
+   - Scikit-Learn: Uses the efficient implementation of `Ordinary Least Squares` internally to compute the model's coefficients (betas).
+   - Ordinary Least Squares (OLS): Manually implemented to calculate the model's coefficients (betas) using the equation: 
       ```math
       B = (X^T  X)^{-1} X^T Y
       ```
 
 3. **Linear Regression Model Evaluation Using 2 Regression Metrics**:
 
-   - **Coefficient of Determination (R²)**: Measures the percentage of variation in the target variable that can be explained by the model. A higher `R²` indicates a better fit.
-   - **Root Mean Square Error (RMSE)**: Provides the average error between predicted and actual values. A lower `RMSE` indicates more accurate predictions.
+   - Coefficient of Determination (R²): Measures the percentage of variation in the target variable that can be explained by the model. A higher `R²` indicates a better fit.
+   - Root Mean Square Error (RMSE): Provides the average error between predicted and actual values. A lower `RMSE` indicates more accurate predictions.
 
 ## 🧮 Results and Analysis 
 
-- Both methods achieved the same evaluation results (R² = 76.94% & RMSE = 209.2), as `Scikit Learn` internally employs `OLS`, ensuring identical results and confirming the correct implementation of the model.
+- Both methods achieved the same evaluation results (`R²` = 76.94% & `RMSE` = 209.2), as `Scikit Learn` internally employs `OLS`, ensuring identical results and confirming the correct implementation of the model.
 - `RAM` (0.442) and `Storage` (0.699) are the most impactful factors.
 - Specific models and brands (`Brand_Apple`, `Model_Iphone_13` and `Model_Iphone_14`) also show high correlations with the target variable.
 -  `Color_Purple` (0.158) has a lower influence. 
